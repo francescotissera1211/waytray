@@ -49,11 +49,11 @@ notify-rust = "4"
 chrono = "0.4"
 
 # HTTP client for weather API
-reqwest = { version = "0.11", default-features = false, features = ["json", "rustls-tls"] }
+reqwest = { version = "0.12", default-features = false, features = ["json", "rustls-tls"] }
 urlencoding = "2"
 
 # File watching for config hot reload
 notify = "8"
 
 # Audio playback for notifications
-gstreamer = "0.23"
+gstreamer = "0.25"

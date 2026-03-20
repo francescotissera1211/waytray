@@ -18,11 +18,11 @@ waytray-daemon = { path = "../waytray-daemon" }
 zbus = { workspace = true }
 
 # GTK4
-gtk4 = { version = "0.9", features = ["v4_12"] }
-gdk4 = "0.9"
-gdk-pixbuf = "0.20"
-glib = "0.20"
-gio = "0.20"
+gtk4 = { version = "0.10", features = ["v4_12"] }
+gdk4 = "0.10"
+gdk-pixbuf = "0.21"
+glib = "0.21"
+gio = "0.21"
 
 # Async runtime
 tokio = { workspace = true }
@@ -44,4 +44,4 @@ futures = "0.3"
 async-channel = "2"
 
 # Wayland layer shell support (for overlay windows)
-gtk4-layer-shell = "0.5"
+gtk4-layer-shell = "0.6"
